@@ -1,1 +1,1 @@
-
+Sometimes the best support we can give is just the message that it gets better, that things will change. While our lives may not be perfect, we want to tell you that someday it will get better. Here you can read our stories. Here you can read that you're not alone.
