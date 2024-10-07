@@ -14,3 +14,33 @@ Help the LGBTQ and allied community of Cedarville University who want to connect
 Create opportunities for renewed friendships, new family bonds, and new educational and professional rewards.
 Provide an alternative to "ex-gay" ministries.
 Provide a safe place to ask questions, pose opinions, and dialogue on issues related to sexuality.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>About Us</h1>
+        <p>This is the about page content.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+    </footer>
+</body>
+</html>
+
