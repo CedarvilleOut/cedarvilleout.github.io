@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Navy Blue and Gold with Enhanced Hover Text</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Nunito:wght@400&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <style>
+        /* Overall styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Nunito', sans-serif;
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #001f3f; /* Navy Blue Text */
+        }
+
+        /* Header Section with Navy Blue Background */
+        .header-section {
+            background-color: #001f3f; /* Navy Blue */
+            color: #ffffff; /* White text for contrast */
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-section .title {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            font-size: 4rem;
+            text-transform: uppercase;
+            color: #FFDC00; /* Gold */
+            margin: 0;
+            margin-left: 10px;
+        }
+
+        /* Menu Bar */
+        .menu-bar {
+            background-color: #001f3f; /* Navy Blue */
+        }
+
+        .menu-bar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .menu-bar ul li {
+            position: relative;
+            margin: 0 15px;
+        }
+
+        .menu-bar ul li a {
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            color: #FFDC00; /* Gold */
+            font-size: 1.2rem;
+            display: inline-block;
+            padding: 10px 15px;
+        }
+
+        .menu-bar ul li a:hover {
+            color: #ffffff; /* Change text color to white on hover */
+        }
+
+        /* Drop-Down Menu Styling */
+        .menu-bar ul li ul {
+            display: none;
+            position: absolute;
+            background-color: #EBF5EE; /* Light gray background for drop-down */
+            padding: 0;
+            top: 100%;
+            left: 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px; /* Rounded corners */
+            width: auto;
+            min-width: 100%; /* Ensures the drop-down doesn't collapse */
+        }
+
+        .menu-bar ul li ul li {
+            display: block;
+            white-space: nowrap; /* Prevent text from wrapping */
+        }
+
+        .menu-bar ul li ul li a {
+            padding: 10px 15px; /* Ensure the text is aligned within the box */
+            color: #333333; /* Navy Blue text for normal state */
+            display: block;
+            width: 100%; /* Full width for easier navigation */
+            box-sizing: border-box;
+        }
+
+        .menu-bar ul li ul li a:hover {
+            color: #FDB813; /* Slightly brighter teal on hover to make it pop more */
+            background-color: transparent; /* No hover background */
+        }
+
+        /* Show drop-down on hover */
+        .menu-bar ul li:hover ul {
+            display: block;
+        }
+
+        /* Body Section with Lighter Cream Background */
+        .body-section {
+            background-color: #fdf9f3; /* Lighter Cream Background */
+            padding: 40px 20px;
+        }
+
+        .body-section p {
+            font-family: 'Nunito', sans-serif;
+            color: #001f3f; /* Navy Blue Text */
+            padding: 0px 80px; /* Padding around the text (top/bottom 40px, left/right 20px) */
+            max-width: 1000px; /* Set max width to make the text less wide */
+        }
+
+        /* Embrace Subheading in the Body - Left-Aligned and Bold */
+        .body-section h2 {
+            font-family: 'Lora', serif;
+            padding: 0px 80px; /* Padding around the text (top/bottom 40px, left/right 20px) */
+            font-weight: 700; /* Bold font weight */
+            font-size: 2.5rem; /* Larger size */
+            color: #00796B; /* Teal for contrast */
+            text-align: left; /* Left-justified */
+            margin-bottom: 20px;
+            margin-top: 0; /* Remove top margin */
+        }
+
+        /* Button Style */
+        .btn {
+            background-color: #FFDC00; /* Gold */
+            color: #001f3f; /* Navy Blue */
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            padding: 10px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+            margin-left: 80px;
+        }
+
+        .btn:hover {
+            background-color: #ffffff;
+            color: #001f3f;
+        }
+
+        /* Join Us Section with Soft Purple Background */
+        .join-us-section {
+            background-color: #b19cd9; /* Soft Purple */
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .join-us-section h2 {
+            font-family: 'Lora', serif;
+            color: #ffffff; /* White for contrast */
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .join-us-section p {
+            font-family: 'Nunito', sans-serif;
+            color: #ffffff; /* White for readability */
+            margin-bottom: 20px;
+            max-width: 800px;
+            margin: 0px auto;
+        }
+
+        /* Footer Section with Soft Purple Background */
+        footer {
+            background-color: #b19cd9; /* Soft Purple (same as Join Us) */
+            color: #ffffff; /* White text for contrast */
+            text-align: center;
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header Section with Menu and Title on Same Line -->
+    <div class="header-section">
+        <h1 class="title">Cedarville Out</h1>
+        <div class="menu-bar">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li>
+                    <a href="#">Theology</a>
+                    <ul>
+                        <li><a href="#">Beliefs</a></li>
+                        <li><a href="#">Values</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Stories</a>
+                    <ul>
+                        <li><a href="#">Personal Stories</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main Body Section with Lighter Cream Background -->
+    <div class="body-section">
+        <div class="container">
+            <h2>Embrace Who You Are</h2>
+            <p>We are LGBTQ+ and allied alumni of Cedarville University bound together in our belief that everyone's sexuality is a precious gift from God.</p>
+            <p>We are here to provide a welcoming place for current students, alumni, or faculty/staff (current and former) who have questions about their sexual orientation.</p>
+            <p>We are here to unite LGBTQ+ and allied alumni in mutual support and friendship.</p>
+            <p>We are hear to bear witness to the joy in our lives.</p>
+            <!-- Call to Action Button -->
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </div>
+
+    <!-- Join Us Section with Soft Purple Background (Seamless with footer) -->
+    <div class="join-us-section">
+        <h2>Join Our Community</h2>
+        <p>Cedarville OUT is not about trying to make you gay or trying to take your faith from you. This is a process we worked through, and in many ways, are still working through. We invite you to read through the other pages of our site, including our stories, and email us if you like. We are here to listen and to share how we have journeyed through some very difficult and yes, joyful times. We want you to know that you are not alone. We know what it is like to feel that someone doesn't understand this journey. No matter how dark it gets, no matter how much pain there is inside, there is still great hope for joy.</p>
+        <!-- Call to Action Button for Join Us -->
+        <a href="#" class="btn">Join Us</a>
+    </div>
+
+    <!-- Footer Section with Soft Purple Background and White Text -->
+    <footer>
+        © 2024 Cedarville Out | All Rights Reserved
+    </footer>
+
+</body>
+</html>
